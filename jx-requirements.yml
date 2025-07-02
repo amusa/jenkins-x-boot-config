@@ -1,10 +1,10 @@
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
+  clusterName: "jx-boot"
+  environmentGitOwner: "amusa"
   environmentGitPublic: false
   project: ""
-  provider: gke
-  zone: ""
+  provider: eks
+  zone: "eu-west-1"
 gitops: true
 environments:
 - key: dev
